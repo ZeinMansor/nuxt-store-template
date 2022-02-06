@@ -1,11 +1,11 @@
 <template>
-  <v-card class="overflow-hidden">
+  <v-card>
     <v-app-bar
       absolute
       color="white"
       elevate-on-scroll
       scroll-target="#scrolling-techniques-7"
-    
+      app
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
@@ -47,7 +47,13 @@
 
 <script>
 export default {
-  name: 'Navigation'
+  name: 'Navigation',
+
+  props: {
+    app: {
+      type: Object
+    }
+  }
 }
 </script>
 

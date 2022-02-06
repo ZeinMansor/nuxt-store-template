@@ -99,7 +99,7 @@
     }),
 
     created() {
-      console.log(this.products)
+     
     }
   }
 </script>

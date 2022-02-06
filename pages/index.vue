@@ -1,7 +1,6 @@
 <template>
 
   <v-app id="inspire">
-    <v-divider class="my-6 mx-2"></v-divider>
     <HomePageBanner />
     <BreadNavigation />
 
