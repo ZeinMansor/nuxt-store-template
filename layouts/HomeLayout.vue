@@ -1,16 +1,16 @@
 <template>
   <div>
-    <Navigation />
+    <HomeHeader />
     <Nuxt />
   </div>
 </template>
 
 <script>
-import Navigation from '../components/Navigation.vue';
+import HomeHeader from '../components/HomeHeader.vue'
 
 export default {
   components: {
-    Navigation,
+    HomeHeader,
   },
   data: () => ({ drawer: null }),
 }

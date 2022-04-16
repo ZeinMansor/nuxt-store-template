@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="mx-lg-4">
     <v-app-bar
       absolute
       color="white"
@@ -7,7 +7,6 @@
       scroll-target="#scrolling-techniques-7"
       app
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
       <v-toolbar-title>Title</v-toolbar-title>
 

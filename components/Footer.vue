@@ -1,5 +1,5 @@
 <template>
-  <v-footer padless class="mt-4">  
+  <v-footer padless class="mt-4">
 	<v-row class="black lighten-1 white--text text-center">
 		<v-col>
 			<v-card flat tile class="transparent lighten-1 white--text text-center">
@@ -8,7 +8,7 @@
 		</v-col>
 
 		<v-divider vertical inset class="white"></v-divider>
-    
+
 		<v-col>
 
 		<v-card
