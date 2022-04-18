@@ -1,6 +1,8 @@
 <template>
   
+
   <div>
+    <v-row>
     <v-container class="d-flex ma-auto mt-2">
       
       <!-- Use this color to add a texture to the background   -->
@@ -37,9 +39,6 @@
                 width="550"
                 src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"></v-img>
 
-              <v-card-title>
-                Hello
-              </v-card-title>
             </v-skeleton-loader>
 
           </v-sheet>
@@ -53,6 +52,8 @@
     
     </v-sheet>  
   </v-container>
+  
+  </v-row>
   </div>
 
 </template>
